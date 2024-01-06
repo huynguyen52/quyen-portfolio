@@ -9,4 +9,8 @@ export default {
   },
   // eslint-disable-next-line no-undef
   plugins: [require('daisyui')],
+  daisyui: {
+    themes: ['dark', 'light'],
+    base: false, // applies background color and foreground color for root element by default
+  },
 };
